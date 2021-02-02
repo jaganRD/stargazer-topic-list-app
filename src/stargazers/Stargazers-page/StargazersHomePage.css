@@ -1,0 +1,14 @@
+.header-section{
+  align-items: center;
+  text-align: center;
+  display: block;
+}
+
+.header-title {
+  margin-right: 10px
+}
+
+.main-page-section {
+  align-items: center;
+  text-align: center;
+}

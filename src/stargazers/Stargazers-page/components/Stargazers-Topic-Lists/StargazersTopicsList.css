@@ -1,0 +1,12 @@
+p.stargazers__title {
+  width: 500px;
+}
+
+
+.topic-stargazers-section {
+  margin: 30px;
+}
+
+.MuiAccordionSummary-content.Mui-expanded {
+  border-bottom: 1px solid lightgrey;
+}
