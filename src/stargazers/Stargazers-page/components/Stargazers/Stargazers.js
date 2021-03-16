@@ -20,7 +20,7 @@ const Stargazers = () => {
   return (
     <div className='graphql-topic'>
       <div className='search-section'>
-        <Button variant="contained" onClick={gotoHome} className='home-button'>Go Home</Button>
+        <Button data-testid="btn-home" variant="contained" onClick={gotoHome} className='home-button'>Go Home</Button>
         <div className='search-section-text'>
           <label className='search-label'>
             <strong>Search for Topic Name:</strong>

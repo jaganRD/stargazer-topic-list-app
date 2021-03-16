@@ -1,6 +1,5 @@
 import React from "react";
 import "./RelatedTopic.css";
-import { DataGrid } from '@material-ui/data-grid';
 
 
 const RelatedTopics= (data) => {

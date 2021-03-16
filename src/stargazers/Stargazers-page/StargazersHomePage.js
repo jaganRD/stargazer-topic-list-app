@@ -14,10 +14,10 @@ const StargazersHomePage = () => {
   };
 
   return (
-    <div className='main-page-section'>
+    <div data-testid="main-page-section" className='main-page-section'>
     
 
-     <img src={logo} alt="Girl in a jacket" width="300" height="200" />
+     <img src={logo} alt="graph logo" data-testid="graph-logo" width="300" height="200" />
       
       
       <div className="header-section">

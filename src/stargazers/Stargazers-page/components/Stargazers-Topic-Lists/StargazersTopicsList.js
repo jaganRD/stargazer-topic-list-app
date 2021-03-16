@@ -8,7 +8,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 const StargazersTopicsList = (stargazer, index) => {
   return (
-    <div className="topic-stargazers-section" key={index}>
+    <div data-testid="stargazer-topic-list" className="topic-stargazers-section" key={index}>
       <Accordion  key={index} className="topic-stargazers-content">
         <AccordionSummary aria-controls="topic-content" id={index} expandIcon={<ExpandMoreIcon />}>
           <p className="stargazers__title">

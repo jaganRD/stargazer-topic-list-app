@@ -3,15 +3,15 @@ import { useQuery } from "@apollo/client";
 import StargazersList from "../Stargazers-Topic-Lists/StargazersTopicsList";
 import { GET_TOPICS_LIST } from "../../../model/StargazersQuery";
 
-function StargazersModel(node) {
-  const name = node.node;
+function StargazersModel(props) {
+  const name = props.node;
   const { loading, error, data } = useQuery(GET_TOPICS_LIST, {
     variables: { name },
   });
   if (loading) return "Loading...";
   if (error) return `Error occured while fetching data: ${error.message}`;
   return (
-    <div>
+    <div data-testid="stargazers-model">
       {data && data.search && data.search.nodes
         ? data.search.nodes.map((node, nodeIndex) => {
             return (
