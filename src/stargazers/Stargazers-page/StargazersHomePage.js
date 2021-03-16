@@ -20,9 +20,9 @@ const StargazersHomePage = () => {
      <img src={logo} alt="graph logo" data-testid="graph-logo" width="300" height="200" />
       
       
-      <div className="header-section">
+      <div  data-testid="header-section" className="header-section">
         <h1 className="header-title" >GraphQL Star Gazers Topics APP</h1> 
-        <Button variant="contained" onClick={gotoList}>Get Topics</Button>
+        <Button  data-testid="topics-button" variant="contained" onClick={gotoList}>Get Topics</Button>
       </div>
 
     
